@@ -7,26 +7,41 @@
     <title>Document</title>
     <style>
         body {
-            max-height: 400px auto;
-            margin: 0 auto;
+            max-width: 750px;
+            margin: 20px;
+            background-color: #f1f1f1;
+            font-family: 'Times New Roman', Times, serif;
+        }        
+
+        p {            
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+        }        
+
+        .row {
+            color: #e1e1e1;
+            margin: 10px;
         }
 
-
-        p {}
-
-        h1 {
+        .alignCenter {
             text-align: center;
         }
 
-        .neque {
-            font-size: 20;
+        .alignRight {
+            text-align: right;
+            margin-right: 40px;            
+        }
+
+        .alignLeft {
+            text-align: left;
         }
 
         .opacity80 {
             opacity: 0.8;
         }
 
-        .opacity87 {
+        .opacity70 {
             opacity: 0.7;
         }
 
@@ -49,18 +64,21 @@
 </head>
 
 <body>
-    <div>
-        <h1>Lorem Ipsum</h1>
+    <a class="alignLeft" href="index.html">Home</a>
+    
+        <h1 class="alignCenter">Lorem Ipsum</h1>
 
-        <p><span class="neque">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                velit..."</span>
+        <p class="alignRight"><i><small>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                    adipisci velit..."</small></i>
         </p>
 
-        <p><span>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is
-                pain..."</span></p>
-        <hr color="#e1e1e1">
+        <p class="alignRight"><small><small>"There is no one who loves pain itself, who seeks after it and wants to have
+                    it, simply because it is pain..."</small></small>
+        </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <hr class="row">
+
+        <p><b>L</b>orem ipsum dolor sit amet, consectetur adipiscing elit.
             <span class="opacity80"> Aenean a mauris pharetra, vehicula metus eget, gravida sem.</span>
             <span class="opacity70"> Duis hendrerit sed velit quis lobortis.</span>
             <span class="opacity60"> Mauris lacinia libero at eleifend egestas.</span>
@@ -69,23 +87,27 @@
             <span class="opacity30"> Mauris non velit purus.</span>
         </p>
 
-        <p>Nullam rutrum, ligula id pellentesque consequat, velit justo feugiat odio, ut elementum elit augue at mi.
+        <p><b>N</b>ullam rutrum, ligula id pellentesque consequat, velit justo feugiat odio, ut elementum elit augue at mi.
             <span class="opacity80"> Aliquam lobortis augue dolor, id finibus sem elementum aliquam.</span>
             <span class="opacity70"> Maecenas ac orci id magna dapibus venenatis.</span>
             <span class="opacity60"> Nam urna nibh, mattis vitae aliquam quis, volutpat vitae nibh.</span>
-            <span class="opacity50"> Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+            <span class="opacity50"> Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus.</span>
             <span class="opacity40"> Sed porta id nibh vitae porta.</span>
-            <span class="opacity30"> Vivamus justo mi, interdum eget dictum a, semper et nisi.</span></p>
+            <span class="opacity30"> Vivamus justo mi, interdum eget dictum a, semper et nisi.</span>
+        </p>
 
-        <p>Duis eget sagittis nibh.
+        <p><b>D</b>uis eget sagittis nibh.
             <span class="opacity80"> Duis ultricies convallis consectetur.</span>
             <span class="opacity70"> Donec mollis dictum velit, et gravida sapien accumsan sed.</span>
-            <span class="opacity60"> Nam bibendum, turpis ut pretium interdum, ipsum neque consequat risus, vel hendrerit turpis arcu quis ante.</span>
+            <span class="opacity60"> Nam bibendum, turpis ut pretium interdum, ipsum neque consequat risus, vel
+                hendrerit turpis arcu quis ante.</span>
             <span class="opacity50"> Phasellus a ornare dolor, at tincidunt eros.</span>
             <span class="opacity40"> Sed justo justo, ultricies et vestibulum id, consectetur sed quam.</span>
             <span class="opacity30"> Donec eu viverra leo.</span>
         </p>
-    </div>
+    
+
 </body>
 
 </html>
