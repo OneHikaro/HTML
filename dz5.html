@@ -5,58 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            background-color: #f5f5f5;
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0px;
+        }
+
+        ul li:nth-child(2n) {
+            background-color: #add8e6;
+            padding: 10px;
+
+        }
+
+        ul li:nth-child(2n+1) {
+            background-color: #a5ccda;
+            padding: 10px;
+        }
+
+        .done {
+            background-color: #e2e2e2 !important;
+            list-style-image: url(img4/checked_16.png);
+        }
+
+        ul .notDone {
+            list-style-image: url(img4/unchecked_16.png);
+        }
+
+        li span:first-child {
+            padding: 0 10px;
+        }
+
+        .crossed {
+            text-decoration: line-through;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
 </head>
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }    
-    
-    div {
-        background-color: #f5f5f5;
-        max-width: 500px; 
-        padding: 20px;       
-    }
-
-    ul {
-        list-style-position: inside;
-        padding-left: 0px;
-    }    
-
-    ul li:nth-child(2n) {
-        background-color: #add8e6;        
-        padding: 10px;
-                
-    }
-
-    ul li:nth-child(2n+1) {
-        background-color: #a5ccda;
-        padding: 10px;
-    }    
-
-    .done {
-        background-color: #e2e2e2 !important;        
-        list-style-image: url(img4/checked_16.png);        
-    }
-
-    ul .notDone {
-        list-style-image: url(img4/unchecked_16.png);
-    }   
-    
-    li span:first-child {
-        padding: 0 10px;
-    }
-
-    .crossed {
-        text-decoration: line-through;
-    }
-
-    .red {
-        color: red;        
-    }
-
-    
-
-</style>
 
 <body>
     <a href="index.html">Home</a>
