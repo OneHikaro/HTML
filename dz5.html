@@ -5,63 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    
-        div {
-            background-color: #f5f5f5;
-            max-width: 500px;
-            padding: 20px;
-        }
-    
-        ul {
-            list-style-position: inside;
-            padding-left: 0px;
-        }
-    
-        ul :nth-child(2n) {
-            background-color: #add8e6;
-            padding: 10px;
-    
-        }
-    
-        ul :nth-child(2n+1) {
-            background-color: #a5ccda;
-            padding: 10px;
-        }
-    
-        ul .done {
-            background-color: #e2e2e2;
-            list-style-image: url(img4/checked_16.png);
-            text-decoration: line-through;
-        }
-    
-        ul .notDone {
-            list-style-image: url(img4/unchecked_16.png);
-        }
-    </style>
 </head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }    
+    
+    div {
+        background-color: #f5f5f5;
+        max-width: 500px; 
+        padding: 20px;       
+    }
 
+    ul {
+        list-style-position: inside;
+        padding-left: 0px;
+    }    
+
+    ul li:nth-child(2n) {
+        background-color: #add8e6;        
+        padding: 10px;
+                
+    }
+
+    ul li:nth-child(2n+1) {
+        background-color: #a5ccda;
+        padding: 10px;
+    }    
+
+    .done {
+        background-color: #e2e2e2 !important;        
+        list-style-image: url(img4/checked_16.png);        
+    }
+
+    ul .notDone {
+        list-style-image: url(img4/unchecked_16.png);
+    }   
+    
+    li span:first-child {
+        padding: 0 10px;
+    }
+
+    .crossed {
+        text-decoration: line-through;
+    }
+
+    .red {
+        color: red;        
+    }
+
+    
+
+</style>
 
 <body>
     <a href="index.html">Home</a>
     <div>
         <h2>My To Do List</h2>
         <ul>
-            <li class="notDone">&nbsp; Hit the gim &nbsp; &nbsp; &#10006;</li>
-            <li class="done">&nbsp; Pay bills &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Meet John &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Buy eggs &nbsp; &nbsp; &#10006;</li>
-            <li class="done">&nbsp; Read a book &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Organize office &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Eat dinner &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Buy apples &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Meet George &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Feed the cat &nbsp; &nbsp; &#10006;</li>
-            <li class="done">&nbsp; Write a letter &nbsp; &nbsp; &#10006;</li>
-            <li class="notDone">&nbsp; Run 1 km &nbsp; &nbsp; &#10006;</li>
+            <li class="notDone"><span>Hit the gim</span> <span class="red">&#10006;</span></li>
+            <li class="done"><span class="crossed">Pay bills</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Meet John </span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Buy eggs</span> <span class="red">&#10006;</span></li>
+            <li class="done"><span class="crossed">Read a book</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Organize office</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Eat dinner</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Buy apples</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Meet George</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Feed the cat</span> <span class="red">&#10006;</span></li>
+            <li class="done"><span class="crossed">Write a letter</span> <span class="red">&#10006;</span></li>
+            <li class="notDone"><span>Run 1 km</span> <span class="red">&#10006;</span></li>
         </ul>
     </div>
 </body>
