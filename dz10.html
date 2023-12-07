@@ -16,21 +16,27 @@
       color: white;
     }
 
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
     img {
       filter: grayscale(1);
     }
 
     .flex {
       display: flex;
-      display: inline-block;
+      display: inline-block;      
     }
 
-    .hover img {
+    img:hover  {
       filter: grayscale(0);
     }
 
-    .hover a {
-      text-decoration: overline;
+    a:hover {
+      text-decoration: underline;
+      color: white;
     }
   </style>
 </head>
@@ -38,16 +44,16 @@
 <body>
   <div>
     <div class="flex">
-      Home<br>
-      About<br>
-      Gallery<br>
-      News<br>
+      <a href="#">Home</a><br>
+      <a href="#">About</a><br>
+      <a href="#">Gallery</a><br>
+      <a href="#">News</a><br>
     </div>
     <div class="flex">
-      Blog<br>
-      FAQ<br>
-      Contacts<br>
-      Privasy & Cookies<br>
+      <a href="#">Blog</a><br>
+      <a href="#">FAQ</a><br>
+      <a href="#">Contacts</a><br>
+      <a href="#">Privasy & Cookies</a><br>
     </div>
     <div class="flex">
       <img src="img4/fb.png">
