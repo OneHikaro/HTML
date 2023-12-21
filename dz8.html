@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-
     div {
       background-color: #808080;
       text-align: center;
@@ -14,13 +14,23 @@
       max-width: 200px;
     }
 
+    .flex {
+      display: flex;
+    }
   </style>
 </head>
+
 <body>
-  <div> <img src="/img4/favorites.png"> EDIT</div>
-  <div>FAVORITES</div>
-  <div>HISTORY</div>
-  <div>SECURITY</div>
-  <div>SETTINGS</div>
+  <a href="index.html">Home</a>
+  <div class="flex">
+    <figure>
+      <img src="/img4/favorites.png" width=40px>
+      <figcaption>FAVORITES</figcaption>
+    </figure>
+    <div>HISTORY</div>
+    <div>SECURITY</div>
+    <div>SETTINGS</div>
+  </div>
 </body>
+
 </html>
