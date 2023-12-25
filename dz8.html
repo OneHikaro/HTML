@@ -14,8 +14,30 @@
       max-width: 200px;
     }
 
+    figure {
+      margin: 0;
+      width: -webkit-fill-available;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px 0 20px 10px;
+    }
+
+    figcaption {
+      text-transform: uppercase;
+    }
+
+    figure:hover {
+      background-color: #5e5e5e;
+    }
+
     .flex {
       display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      /* padding: 20px 0 20px 10px; */
     }
   </style>
 </head>
@@ -24,12 +46,21 @@
   <a href="index.html">Home</a>
   <div class="flex">
     <figure>
+      <img src="/img4/edit.png" width=40px>
+      <figcaption>edit</figcaption>
+    </figure>    
+    <figure>
       <img src="/img4/favorites.png" width=40px>
-      <figcaption>FAVORITES</figcaption>
+      <figcaption>favorites</figcaption>
     </figure>
-    <div>HISTORY</div>
-    <div>SECURITY</div>
-    <div>SETTINGS</div>
+    <figure>
+      <img src="/img4/history.png" width=40px>
+      <figcaption>history</figcaption>
+    </figure>
+    <figure>
+      <img src="/img4/heart.png" width=40px>
+      <figcaption>security</figcaption>
+    </figure>
   </div>
 </body>
 
