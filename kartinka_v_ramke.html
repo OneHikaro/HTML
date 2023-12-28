@@ -6,26 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>    
-
-    img {      
-      display: flex;
+  <style>
+    img {
       border: 10px solid rgb(1, 178, 248);
-      justify-content: center;
+      /* z-index: 2; */
     }
 
     div {
-      border: 10px solid #fbbcbc;      
-      width: 300px;
-      height: 300px;
+      position: relative;
     }
 
+    .top {
+      position: absolute;
+      background-color: blue;
+      top: 0;
+
+    }
+
+    .right {
+      position: absolute;
+      background-color: blue;
+      right: 0;
+    }
+
+    .bottom {
+      position: absolute;
+      background-color: blue;
+      bottom: 0;
+    }
+
+    .left {
+      position: absolute;
+      background-color: blue;
+      left: 0;
+    }
   </style>
 </head>
 
-<body>  
+<body>
+  <div>
     <img src="img4/wedding.jpg">
-    <div> </div>
+  </div>
+  <div class="top"> </div>
+  <div class="right"> </div>
+  <div class="bottom"> </div>
+  <div class="left"> </div>
+
 </body>
 
 </html>
