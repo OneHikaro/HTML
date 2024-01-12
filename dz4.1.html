@@ -8,10 +8,11 @@
   <title>Document</title>
   <style>
     .watch {
+      /* background-image: url(img4/clock_for_dz4.1.png); */
       width: 200px;
       height: 200px;
       margin: 20px auto;
-      border: 3px blue solid;
+      /* border: 3px blue solid; */
       border-radius: 50%;
       position: relative;
     }
@@ -38,6 +39,7 @@
       transform-origin: bottom center;
       animation: time 60s steps(60) infinite;
     }
+
     .minutes {
       height: 60px;
       width: 3px;
@@ -47,7 +49,8 @@
       transform-origin: bottom center;
       animation: time 3600s;
     }
-    .hours{
+
+    .hours {
       height: 40px;
       width: 3px;
       background-color: rgb(243, 201, 12);
@@ -56,15 +59,84 @@
       transform-origin: bottom center;
       animation: time 86400s;
     }
+
     .twelve {
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
     }
+
+    .one {
+      top: 20px;
+      left: 70%;
+      transform: translateX(-50%);
+    }
+
+    .two {
+      top: 50px;
+      left: 90%;
+      transform: translateX(-50%);
+    }
+
+    .three {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .four {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .five {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .six {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .seven {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .eight {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .nine {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .ten {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .eleven {
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
     @keyframes time {
       from {
         transform: rotate(0);
       }
+
       to {
         transform: rotate(360deg);
 
@@ -76,11 +148,23 @@
 <body>
   <a href="index.html">Home</a>
   <div class="watch">
+    <img src="img4\clock_for_dz4.1.png" alt="clock" width="200px">
     <div class="hours"></div>
     <div class="minutes"></div>
     <div class="seconds"></div>
     <div class="center"></div>
-    <div class="twelve">12</div>
+    <!-- <div class="twelve">12</div>
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+    <div class="five">5</div>
+    <div class="six">6</div>
+    <div class="seven">7</div>
+    <div class="eight">8</div>
+    <div class="nine">9</div>
+    <div class="ten">10</div>
+    <div class="eleven">11</div> -->
   </div>
 </body>
 
