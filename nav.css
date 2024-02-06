@@ -1,0 +1,10 @@
+.flexNav {
+  display: flex;
+  gap: 20px;
+}
+
+.flexNav a {
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 10px;
+}
