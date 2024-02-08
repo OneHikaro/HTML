@@ -1,5 +1,8 @@
 .flexNav {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 20px;
 }
 
@@ -8,3 +11,8 @@
   border-radius: 10px;
   padding: 10px;
 }
+
+.flexNav div {
+  padding: 0;
+}
+

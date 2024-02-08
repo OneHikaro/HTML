@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    body {
+      padding: 10px;
+      margin: 0;
+    }
+
     div {
       background-color: #808080;
       text-align: center;
@@ -40,16 +45,22 @@
       align-items: baseline;
       /* padding: 20px 0 20px 10px; */
     }
-  </style>
+    </style>
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
-  <a href="index.html">Home</a>
+  <div class="flexNav">
+    <div><a href="index.html">Home</a></div>
+    <div><a href="dz3.1.html">Previous</a></div>
+    <div style="color: red;">dz3.2</div>
+    <div><a href="dz3.3.html">Next</a></div>
+  </div>
   <div class="flex">
     <figure>
       <img src="img4/edit.png" width=40px>
       <figcaption>edit</figcaption>
-    </figure>    
+    </figure>
     <figure>
       <img src="img4/favorites.png" width=40px>
       <figcaption>favorites</figcaption>

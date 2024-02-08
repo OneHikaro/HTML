@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    body {
+      padding: 10px;
+      margin: 0;
+    }
+
     .watch {
       /* background-image: url(img4/clock_for_dz4.1.png); */
       width: 200px;
@@ -65,19 +70,19 @@
       left: 50%;
       transform: translateX(-50%);
     }
-
+    
     .one {
       top: 20px;
       left: 70%;
       transform: translateX(-50%);
     }
-
+    
     .two {
       top: 50px;
       left: 90%;
       transform: translateX(-50%);
     }
-
+    
     .three {
       top: 10px;
       left: 50%;
@@ -107,7 +112,7 @@
       left: 50%;
       transform: translateX(-50%);
     }
-
+    
     .eight {
       top: 10px;
       left: 50%;
@@ -136,16 +141,22 @@
       from {
         transform: rotate(0);
       }
-
+      
       to {
         transform: rotate(360deg);
       }
     }
-  </style>
+    </style>
+<link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
-  <a href="index.html">Home</a>
+  <div class="flexNav">
+    <div><a href="index.html">Home</a></div>
+    <div><a href="dz3.4.html">Previous</a></div>
+    <div style="color: red;">dz4.1</div>
+    <div><a href="dz4.2.html">Next</a></div>
+  </div>
   <div class="watch">
     <img src="img4\clock_for_dz4.1.png" alt="clock" width="200px">
     <div class="hours"></div>
